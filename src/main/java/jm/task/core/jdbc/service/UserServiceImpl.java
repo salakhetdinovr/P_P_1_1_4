@@ -39,6 +39,7 @@ public class UserServiceImpl implements UserService  {
     }
 
     public void cleanUsersTable() {
+
         userDaoHibernate.cleanUsersTable();
     }
 }

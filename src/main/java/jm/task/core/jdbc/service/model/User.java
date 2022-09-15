@@ -3,7 +3,7 @@ package jm.task.core.jdbc.service.model;
 import javax.persistence.*;
 
 @Entity
-@Table (name = "user")
+@Table (name = "User")
 public class User {
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
